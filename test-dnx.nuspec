@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>test.dnx</id>
+    <version>1.0.0-beta1</version>
+    <title>dnx test</title>
+    <authors>Xamarin</authors>
+    <owners>Xamarin</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test dnx target frameworks.</description>
+    <dependencies>
+      <group targetFramework="net4.0">
+        <dependency id="Newtonsoft.Json" version="6.0.1" />
+      </group>
+      <group targetFramework="dnx5.0">
+        <dependency id="NUnit" version="2.6.1" />
+      </group>
+      <group targetFramework="dnxcore5.0">
+        <dependency id="NUnit" version="2.6.1" />
+      </group>
+    </dependencies>
+    <iconUrl>http://xamarin.com/content/images/nuget/xamarin.png</iconUrl>
+    <copyright>Copyright © Xamarin Ltd</copyright>
+    <projectUrl>http://xamarin.com/</projectUrl>
+  </metadata>
+</package>
